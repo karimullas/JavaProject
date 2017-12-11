@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="123" started-at="2017-10-15T03:29:22Z" finished-at="2017-10-15T03:29:22Z">
+    <groups>
+      <group name="Regression">
+        <method signature="TestNgClass.method5()[pri:0, instance:TestNgPractice.TestNgClass@548b7f67]" name="method5" class="TestNgPractice.TestNgClass"/>
+        <method signature="TestNgClass2.method6()[pri:0, instance:TestNgPractice.TestNgClass2@50c87b21]" name="method6" class="TestNgPractice.TestNgClass2"/>
+        <method signature="TestNgClass2.method7()[pri:0, instance:TestNgPractice.TestNgClass2@50c87b21]" name="method7" class="TestNgPractice.TestNgClass2"/>
+        <method signature="TestNgClass2.method8()[pri:0, instance:TestNgPractice.TestNgClass2@50c87b21]" name="method8" class="TestNgPractice.TestNgClass2"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Default test" duration-ms="123" started-at="2017-10-15T03:29:22Z" finished-at="2017-10-15T03:29:22Z">
+      <class name="TestNgPractice.TestNgClass2">
+        <test-method status="PASS" signature="method7()[pri:0, instance:TestNgPractice.TestNgClass2@50c87b21]" name="method7" duration-ms="14" started-at="2017-10-15T08:59:22Z" finished-at="2017-10-15T08:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method7 -->
+        <test-method status="PASS" signature="method8()[pri:0, instance:TestNgPractice.TestNgClass2@50c87b21]" name="method8" duration-ms="1" started-at="2017-10-15T08:59:22Z" finished-at="2017-10-15T08:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method8 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:TestNgPractice.TestNgClass2@50c87b21]" name="method6" duration-ms="5" started-at="2017-10-15T08:59:22Z" finished-at="2017-10-15T08:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+      </class> <!-- TestNgPractice.TestNgClass2 -->
+      <class name="TestNgPractice.TestNgClass">
+        <test-method status="PASS" signature="method5()[pri:0, instance:TestNgPractice.TestNgClass@548b7f67]" name="method5" duration-ms="13" started-at="2017-10-15T08:59:22Z" finished-at="2017-10-15T08:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method5 -->
+      </class> <!-- TestNgPractice.TestNgClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

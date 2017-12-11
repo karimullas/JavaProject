@@ -30,7 +30,12 @@ public class LoginTestCase extends TestBase{
 	public void VerifyPageTitleTest()
 	{
 		String PageTitle=loginpage.VerifyPageTitle();
+		try{
 		Assert.assertEquals(PageTitle,"Facebook – log in or sign up");
+		}catch(Exception e)
+		{
+			System.out.println(e);
+		}
 	}
 	
 	@Test(priority=2)
